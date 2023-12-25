@@ -18,11 +18,9 @@ namespace CarRentalManagementSystem
         }
 
         //private ManageCars car = null;
-      // <summary>
-      // private ManageCustomers customer = null;
-      // </summary>
-      //  private Rental rental = null;
-       // private Return rt = null;
+        //private ManageCustomers customer = null;
+        //private Rental rental = null;
+        //private Return rt = null;
         //private Dashboard dashboard= null;
         //private ManageUsers user = null;
 
@@ -38,68 +36,68 @@ namespace CarRentalManagementSystem
 
         private void buttonCar_Click(object sender, EventArgs e)
         {
-            if(car == null || car.IsDisposed)
-            {
-                car = new ManageCars();
-            }
+            //if(car == null || car.IsDisposed)
+            //{
+            //    car = new ManageCars();
+            //}
 
-            car.Show();
-            this.Hide();
+            //car.Show();
+            //this.Hide();
         }
 
         private void buttonCustomer_Click(object sender, EventArgs e)
         {
-            if (customer == null || customer.IsDisposed)
-            {
-                customer = new ManageCustomers();
-            }
+            //if (customer == null || customer.IsDisposed)
+            //{
+            //    customer = new ManageCustomers();
+            //}
 
-            customer.Show();
-            this.Hide();
+            //customer.Show();
+            //this.Hide();
         }
 
         private void buttonRental_Click(object sender, EventArgs e)
         {
-            if (rental == null || rental.IsDisposed)
-            {
-                rental = new Rental();
-            }
+            //if (rental == null || rental.IsDisposed)
+            //{
+            //    rental = new Rental();
+            //}
 
-            rental.Show();
-            this.Hide();
+            //rental.Show();
+            //this.Hide();
         }
 
         private void buttonReturn_Click(object sender, EventArgs e)
         {
-            if (rt == null || rt.IsDisposed)
-            {
-                rt = new Return();
-            }
+            //if (rt == null || rt.IsDisposed)
+            //{
+            //    rt = new Return();
+            //}
 
-            rt.Show();
-            this.Hide();
+            //rt.Show();
+            //this.Hide();
         }
 
         private void buttonDashboard_Click(object sender, EventArgs e)
         {
-            if (dashboard == null || dashboard.IsDisposed)
-            {
-                dashboard = new Dashboard();
-            }
+            //if (dashboard == null || dashboard.IsDisposed)
+            //{
+            //    dashboard = new Dashboard();
+            //}
 
-            dashboard.Show();
-            this.Hide();
+            //dashboard.Show();
+            //this.Hide();
         }
 
         private void buttonUsers_Click(object sender, EventArgs e)
         {
-            if (user == null || user.IsDisposed)
-            {
-                user = new ManageUsers();
-            }
+            //if (user == null || user.IsDisposed)
+            //{
+            //    user = new ManageUsers();
+            //}
 
-            user.Show();
-            this.Hide();
+            //user.Show();
+            //this.Hide();
         }
 
         private void buttonLogout_Click(object sender, EventArgs e)
