@@ -71,6 +71,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CarRentaldbDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="CarRentaldbDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarRentaldbDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +93,10 @@
     </Compile>
     <Compile Include="ManageCars.designer.cs">
       <DependentUpon>ManageCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCustomers.cs" />
+    <Compile Include="ManageCustomers.designer.cs">
+      <DependentUpon>ManageCustomers.cs</DependentUpon>
     </Compile>
     <Compile Include="Return.cs">
       <SubType>Form</SubType>
@@ -111,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManageCars.resx">
       <DependentUpon>ManageCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageCustomers.resx">
+      <DependentUpon>ManageCustomers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Return.resx">
       <DependentUpon>Return.cs</DependentUpon>
@@ -137,6 +149,17 @@
     </None>
     <None Include="CarRentaldbDataSet.xss">
       <DependentUpon>CarRentaldbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentaldbDataSet1.xsc">
+      <DependentUpon>CarRentaldbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CarRentaldbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarRentaldbDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarRentaldbDataSet1.xss">
+      <DependentUpon>CarRentaldbDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
