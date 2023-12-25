@@ -71,6 +71,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CarRentaldbDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,12 @@
     <Compile Include="ManageCustomers.designer.cs">
       <DependentUpon>ManageCustomers.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManageUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageUsers.designer.cs">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Rental.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +127,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
@@ -126,6 +141,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManageCustomers.resx">
       <DependentUpon>ManageCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageUsers.resx">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rental.resx">
       <DependentUpon>Rental.cs</DependentUpon>
