@@ -89,6 +89,12 @@
     <Compile Include="ManageCars.designer.cs">
       <DependentUpon>ManageCars.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManageCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageCustomers.designer.cs">
+      <DependentUpon>ManageCustomers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Return.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManageCars.resx">
       <DependentUpon>ManageCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageCustomers.resx">
+      <DependentUpon>ManageCustomers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Return.resx">
       <DependentUpon>Return.cs</DependentUpon>
