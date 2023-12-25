@@ -18,7 +18,7 @@ namespace CarRentalManagementSystem
             InitializeComponent();
         }
 
-        //private Home home = null;
+        private Home home = null;
 
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Project\CarRentalManagementSystem\CarRentaldb.mdf;Integrated Security=True;Connect Timeout=30");
 
@@ -39,9 +39,9 @@ namespace CarRentalManagementSystem
             ad.Fill(dt);
             if(dt.Rows[0][0].ToString() == "1")
             {
-                //home = new Home();
-                //home.Show();
-                //this.Hide();
+                home = new Home();
+                home.Show();
+                this.Hide();
             }
             else
             {
