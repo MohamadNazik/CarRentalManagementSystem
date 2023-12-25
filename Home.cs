@@ -17,10 +17,10 @@ namespace CarRentalManagementSystem
             InitializeComponent();
         }
 
-        //private ManageCars car = null;
+        private ManageCars car = null;
         //private ManageCustomers customer = null;
         //private Rental rental = null;
-        //private Return rt = null;
+        private Return rt = null;
         //private Dashboard dashboard= null;
         //private ManageUsers user = null;
 
@@ -36,13 +36,13 @@ namespace CarRentalManagementSystem
 
         private void buttonCar_Click(object sender, EventArgs e)
         {
-            //if(car == null || car.IsDisposed)
-            //{
-            //    car = new ManageCars();
-            //}
+            if (car == null || car.IsDisposed)
+            {
+                car = new ManageCars();
+            }
 
-            //car.Show();
-            //this.Hide();
+            car.Show();
+            this.Hide();
         }
 
         private void buttonCustomer_Click(object sender, EventArgs e)
@@ -69,13 +69,13 @@ namespace CarRentalManagementSystem
 
         private void buttonReturn_Click(object sender, EventArgs e)
         {
-            //if (rt == null || rt.IsDisposed)
-            //{
-            //    rt = new Return();
-            //}
+            if (rt == null || rt.IsDisposed)
+            {
+                rt = new Return();
+            }
 
-            //rt.Show();
-            //this.Hide();
+            rt.Show();
+            this.Hide();
         }
 
         private void buttonDashboard_Click(object sender, EventArgs e)
