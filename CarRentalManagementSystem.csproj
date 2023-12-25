@@ -83,6 +83,8 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManageCars.cs" />
+    <Compile Include="Return.cs" />
     <Compile Include="Splash.cs">
       <SubType>Form</SubType>
     </Compile>
