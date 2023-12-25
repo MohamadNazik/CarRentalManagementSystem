@@ -22,7 +22,7 @@ namespace CarRentalManagementSystem
         private Rental rental = null;
         private Return rt = null;
         //private Dashboard dashboard= null;
-        //private ManageUsers user = null;
+        private ManageUsers user = null;
 
         private void Home_Load(object sender, EventArgs e)
         {
@@ -91,13 +91,13 @@ namespace CarRentalManagementSystem
 
         private void buttonUsers_Click(object sender, EventArgs e)
         {
-            //if (user == null || user.IsDisposed)
-            //{
-            //    user = new ManageUsers();
-            //}
+            if (user == null || user.IsDisposed)
+            {
+                user = new ManageUsers();
+            }
 
-            //user.Show();
-            //this.Hide();
+            user.Show();
+            this.Hide();
         }
 
         private void buttonLogout_Click(object sender, EventArgs e)
