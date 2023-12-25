@@ -95,6 +95,10 @@
     <Compile Include="ManageCustomers.designer.cs">
       <DependentUpon>ManageCustomers.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManageUsers.cs" />
+    <Compile Include="ManageUsers.designer.cs">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Rental.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +130,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManageCustomers.resx">
       <DependentUpon>ManageCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageUsers.resx">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rental.resx">
       <DependentUpon>Rental.cs</DependentUpon>
